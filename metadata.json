@@ -1,0 +1,6 @@
+{
+  "name": "Doodh Hisab",
+  "description": "Daily Milk Tracker & Hisab App (दूध का हिसाब) for Indian households with interactive monthly calendar, automatic bill calculation, month-wise history, JSON backup, and Google Apps shortcuts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

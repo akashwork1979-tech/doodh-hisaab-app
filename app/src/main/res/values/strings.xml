@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Doodh Hisab</string>
+    <string name="app_title_bilingual">Doodh Hisab • दूध का हिसाब</string>
+    <string name="nav_hisab">Hisab / हिसाब</string>
+    <string name="nav_history">History / पिछला हिसाब</string>
+    <string name="nav_apps">Apps / ऐप्स</string>
+    <string name="label_rate_per_liter">Rate / दर (₹/L)</string>
+    <string name="label_total_days">Days / दिन</string>
+    <string name="label_total_liters">Liters / लीटर</string>
+    <string name="label_total_amount">Total Bill / कुल राशि</string>
+    <string name="status_paid">Paid • भुगतान हो गया</string>
+    <string name="status_unpaid">Unpaid • बाकी है</string>
+    <string name="action_save_reminder">Bill Reminder • कैलेंडर रिमाइंडर</string>
+    <string name="action_open_calendar">Google Calendar</string>
+    <string name="action_today">Today / आज</string>
+    <string name="action_log_today">Log Today / आज दर्ज करें</string>
+    <string name="action_save">Save / सेव करें</string>
+    <string name="action_clear">Clear / हटाएं</string>
+    <string name="action_export_json">Export JSON / बैकअप सेव</string>
+    <string name="action_import_json">Import JSON / बैकअप रिस्टोर</string>
+    <string name="session_morning">Morning / सुबह</string>
+    <string name="session_evening">Evening / शाम</string>
+    <string name="session_both">Both / दोनों</string>
+    <string name="session_absent">Absent / नहीं आया</string>
+    <string name="cd_previous_month">Previous month</string>
+    <string name="cd_next_month">Next month</string>
+    <string name="cd_edit_rate">Edit per liter rate</string>
+    <string name="cd_dairy_banner">Morning milk vessel illustration</string>
+</resources>
