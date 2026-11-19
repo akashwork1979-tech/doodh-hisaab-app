@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0f766e" />
+  <title>दूध का हिसाब | Doodh Hisab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --p:#0f766e; --pl:#ccfbf1; --pd:#115e59; --bg:#f1f5f9; --card:#fff; --txt:#0f172a; --mut:#64748b; --gbg:#dcfce7; --gtxt:#166534; --rbg:#fee2e2; --rtxt:#991b1b; }
+    * { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+    body { font-family:'Poppins','Noto Sans Devanagari',sans-serif; background:var(--bg); color:var(--txt); padding-bottom:85px; }
+    header { background:linear-gradient(135deg,var(--p),var(--pd)); color:#fff; padding:16px; border-radius:0 0 22px 22px; box-shadow:0 4px 12px rgba(15,118,110,.25); }
+    .h-row { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    h1 { font-size:1.2rem; } .sub { font-size:.75rem; opacity:.9; }
+    .rate-box { background:rgba(255,255,255,.18); padding:6px 10px; border-radius:12px; display:flex; align-items:center; gap:6px; font-size:.8rem; }
+    .rate-box input { width:58px; padding:4px; border:none; border-radius:8px; text-align:center; font-weight:700; color:var(--pd); }
+    .wrap { max-width:500px; margin:0 auto; padding:12px; }
+    .card { background:var(--card); border-radius:16px; padding:14px; margin-bottom:12px; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+    .nav { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+    .nav button { background:var(--pl); color:var(--pd); border:none; width:36px; height:36px; border-radius:10px; font-size:1.1rem; font-weight:700; cursor:pointer; }
+    .m-title { text-align:center; } .m-title h2 { font-size:1rem; }
+    .pill { border:none; padding:3px 10px; border-radius:99px; font-size:.7rem; font-weight:700; cursor:pointer; margin-top:4px; }
+    .paid { background:var(--gbg); color:var(--gtxt); } .unpaid { background:#fef3c7; color:#92400e; }
+    .stats { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .stat { background:var(--bg); padding:10px; border-radius:12px; }
+    .stat small { display:block; color:var(--mut); font-size:.72rem; }
+    .stat b { font-size:1.05rem; color:var(--pd); }
+    .stat.total { grid-column:span 2; background:var(--pl); display:flex; justify-content:space-between; align-items:center; }
+    .stat.total b { font-size:1.3rem; }
+    .cal-head, .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:5px; text-align:center; }
+    .cal-head div { font-size:.72rem; font-
